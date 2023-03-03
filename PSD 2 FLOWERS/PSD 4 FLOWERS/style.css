@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec-one{
+   background-image: url(./img/FLOWER\ IMG.png);
+   background-repeat: no-repeat;
+   width: 1441px;
+    min-height: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.re-po{
+    position: relative;
+}
+.ab-po{
+    position: absolute;
+    top: -85px;
+    left:  -200px;
+}
+.c-w-100{
+    width: 100%;
+}
+.ab{
+    position: absolute;
+}
+.container-main{
+    width: 1325px;
+    margin: 0 auto;
+
+}
+.row{
+    display: flex;
+}
+.jcs{
+    justify-content: space-between;
+}
+.nav{
+    margin-top: 62px;
+    background-color: black;
+    border-radius: 50px;
+    color: aliceblue;
+    padding: 10px 40px 10px 40px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 80px;
+    padding-left: 10px;
+    font-size: 17px;
+    line-height: 40px;
+}
+.container{
+    width: 1225px;
+    margin: 0 auto;
+}
+.sec-one-text{
+    margin-top: 100px;
+    padding: 80px;
+    margin-left: -90px;
+}
+.sec-one-text h1{
+    font-size: 90px;
+}
+.sec-one-text h2{
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: "Sacramento";
+}
+.sec-one-text p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec-one-text a{
+    
+    text-decoration:none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.atag{
+    margin-top: 43px;
+}
+.purchase{
+    margin-left: 35px;
+    color: white;
+}
+.read{
+    margin-left: 80px;
+    color: black;
+}
+
+
+.col-50{
+    width: 50%;
+}
+.sec-two{
+    background-image: url(./img/sec-bg.png);
+    background-repeat: no-repeat;
+    width: 1441px;
+     min-height: 268px;
+     margin: 0 auto;
+     overflow: hidden;
+}
+.sec-two-h1-margin{
+    margin-top: -50px;
+}
+.sec-two-text h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    color: white;
+    
+}
+.sec-two-text h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Sacramento";
+    color: white;
+}
+.sec-two-desing{
+    position: absolute;
+    top: 40px;
+}
+.sec-three{
+    width: 1441px;
+     margin: 0 auto;
+}
+.container{
+    width: 1225px;
+    margin: 0 auto;
+}
+.col-40{
+    width: 40%;
+    margin: 0 auto;
+}
+.sec-three-text h1{
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+.sec-three-text p{
+    margin-top: 13px;
+    font-size: 18px;
+    text-align: center;
+}
+.cart{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-two{
+    background-image: url(./img/cart\ 2\ img.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.po-re{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+    top: -60px;
+    left: 12px;
+}
+.po-ab-text{
+    position: absolute;
+    top: 250px;
+    left: -1px; } 
+
+.po-ab-text h3{
+    font-size: 30px;
+}
+.po-ab-text p{
+    font-size: 20px;
+    text-align: left;
+
+}
+.col-30{
+    width: 35%;
+}
+.po-ab-text h4{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.cart-1{
+    width: 33%;
+}
+.p-width{
+    width: 60%;
+    margin-top: 20px;
+}
+.po-re-2{
+    position: relative;
+}
+.po-ab-2{
+    position: absolute;
+    top: -65px;
+    left: 35px;
+}
+
+.po-ab-text-2{
+    position: absolute;
+    top: 250px;
+    left: -1px;
+
+}
+
+
+.po-ab-text-2 h3{
+    font-size: 30px;
+
+}
+.po-ab-text-2 p{
+    font-size: 20px;
+    text-align: left;
+
+}
+.cart-2{
+    width: 33%;
+}
+.po-ab-text-2 h4{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.po-re-3{
+    position: relative;
+}
+.po-ab-3{
+    position: absolute;
+    top: -45px;
+    left: 35px;
+}
+
+.po-ab-text-3{
+    position: absolute;
+    top: 250px;
+    left: -1px;
+
+}
+
+
+.po-ab-text-3 h3{
+    font-size: 30px;
+
+}
+.po-ab-text-3 p{
+    font-size: 20px;
+    text-align: left;
+
+}
+.cart-3{
+    width: 33%;
+}
+.po-ab-text-3 h4{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.child-container{
+    margin-left: 95px;
+    padding-bottom: 100px;
+}
+
+.sec-four{
+    width: 1441px;
+    margin: 0 auto;
+    overflow: hidden;
+  background-image: url(./img/Background\ \(2\).png);
+}
+.po-re-4{
+    position: relative;
+}
+.po-ab-4{
+    position: absolute;
+    left: 1050px;
+    
+}
+.img-4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sec-four h1
+{
+margin-top: 100px;
+    font-size: 40px;
+    font-family:"Sacramento";
+}
+.sec-four p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.sec-four button{
+    margin-top: 70px;
+    background-color: black;
+    font-size: 20px;
+    color: #efd0ca;
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.col-35{
+    width: 85%;
+}
+.text-4{
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-left: 80px;
+}
+.sec-five{
+    width: 1441px;
+    margin: 0 auto;
+    min-height: 900px;
+    overflow: hidden;
+  background-image: url(./img/sec-5-img.png);}
+  
+
+  .re-po-5{
+    position: relative;
+  }
+  .po-ab-5{
+    position: absolute;
+    left: -160px;
+    top: -30px;
+  }
+  .col-41{
+    width: 30%;
+  }
+  .sec-five h1{
+    font-size: 40px;
+    font-family:"Sacramento";
+  }
+  .sec-five p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+  }
+  .sec-five h4{
+    margin-top: 70px;
+    color: #efd0ca;
+    font-size: 20px;
+    margin-left: 20px;
+margin-bottom: 100px;
+padding-bottom: 90px;
+  }
+  .po-ab-text-5{
+    position: absolute;
+    top: 350px;
+    left: 15px;
+  }
+  .sec-seven{
+    width: 1441px;
+    margin: 0 auto;
+    min-height: 900px;
+    overflow: hidden;
+    background-image: url(./img/Background\ \(2\).png);
+    
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sec-seven h1{
+    margin-top: 90px;
+    font-size: 40px;
+
+
+}
+.sec-seven p{
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+
+}
+.p-width-7{
+    width: 39%;
+
+}
+.po-re-7{
+    position: relative;
+}
+.po-ab-7{
+    position: absolute;
+    top: 186px;
+    left: -31px;
+}
+.sec-eight{
+    width: 1441px;
+    margin: 0 auto;
+    min-height: 900px;
+    overflow: hidden;
+  background-image: url(./img/sec-8-img.png);}
+  
+
+  .re-po-8{
+    position: relative;
+  }
+  .po-ab-8{
+    position: absolute;
+    left: -160px;
+    top: -30px;
+  }
+  .col-41{
+    width: 30%;
+  }
+  .sec-eight h1{
+    font-size: 30px;
+  }
+  .sec-eight p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+  }
+  .sec-eight h4{
+    margin-top: 70px;
+    color: #efd0ca;
+    font-size: 20px;
+    margin-left: 20px;
+margin-bottom: 100px;
+padding-bottom: 90px;
+  }
+  .po-ab-text-8{
+    position: absolute;
+    top: 370px;
+    left: 15px;
+  }
+  .sec-nine{
+    width: 1441px;
+    margin: 0 auto;
+    min-height: 850px;
+    /* overflow: hidden; */
+  background-image: url(./img/sec-9-img.png);}
+  
+  .flex-9{
+    display: flex;
+     flex-direction: column;
+    justify-items: left;
+   
+  }
+  /* .po-re-9{
+    position: relative;
+  }
+  .po-ab-9{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+  }
+  .sec-nine{
+    font-size: 22px;
+  }
+  .ourh1{
+    margin-left: 50px;
+  }
+  .po-re-text-9{
+    position: relative;
+  }
+  .ab-po-text-9{
+    position: absolute;
+    left: 700px;
+    top: 200px;
+  }
+   */
+  
+ /* .col-65{
+    width: 75%;
+}
+.col-35{ 
+    width: 25%;
+} */
+.sec-9-text{
+   align-items: center;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.sec-9-text h1{
+    text-align: right;
+    margin-top: 100px;
+    padding-top: 100px;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.sec-9-text input{
+    align-items: end;
+    display: block;
+    padding: 15px;
+    padding-right: 550px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    text-align: left;
+    border-color: rgba(128, 128, 128, 0.337);
+    background-color: #f0f0f0;;
+    
+}
+.fdc{
+    flex-direction: column;
+}
+.sec-9-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.sec-9-text button{
+    padding:7px 15px;
+    border-radius: 22px;
+    background-color: #a3aa68;
+    color: aliceblue;
+    border-color: rgb(0, 136, 255);
+}
+.sec-ten{
+    width: 1441px;
+    margin: 0 auto;
+    background-color: #424242;;
+}
+.sec-ten h1{
+    margin-top: 100px;
+    padding-top: 40px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.sec-ten h3{
+    color: aliceblue;
+    margin-top: 10px;
+    
+}
+.sec-ten h4{
+    color:  #efd0ca;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-family: "Sacramento";
+}
+i{
+    color: #efd0ca;
+    margin-top: 65px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.end{
+    justify-content: end;
+}
+
+
+
+
+
+  
+
+
